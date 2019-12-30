@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000099</color>
+    <color name="colorPrimaryDark">#00004C</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <!--    xml colors-->
+    <color name="section_tv_color">#4C0000</color>
+    <color name="title_color">#000066</color>
+    <color name="date_And_Writer_Color">#7B0000</color>
+    <color name="list_item_background">#F1E5E5</color>
+    <color name="brake_line_color">#330000</color>
+
+</resources>

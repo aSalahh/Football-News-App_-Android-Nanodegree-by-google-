@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_item_background"
+    android:id="@+id/list_item">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/section_padding"
+        android:text="@string/title_of_news"
+        android:textColor="@color/title_color"
+        android:textSize="@dimen/title_text_size"
+        app:fontFamily="@font/abril_fatface" />
+
+    <TextView
+        android:id="@+id/sectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/section_padding"
+        android:text="@string/sectionName_Text"
+        android:textColor="@color/section_tv_color"
+        android:textSize="@dimen/section_text_size"
+        app:fontFamily="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/section_padding">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/date_and_time"
+            android:text="@string/date"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:id="@+id/writer"
+            style="@style/date_and_time"
+            android:gravity="right"
+            android:text="@string/writer"
+            app:fontFamily="cursive" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hight_brack_line"
+        android:background="@color/brake_line_color"/>
+</LinearLayout>

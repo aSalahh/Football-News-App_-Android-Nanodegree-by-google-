@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Football News</string>
+
+    <!--    Xml Strings-->
+    <string name="noInternet">Please Check The Internet Connection</string>
+    <string name="sectionName_Text">Section</string>
+    <string name="title_of_news">Hello Title</string>
+    <string name="writer">writer</string>
+    <string name="date">date</string>
+
+    <!--    ###############################################-->
+    <string name="no_result"> Reports is un anavilable.</string>
+
+
+</resources>
